@@ -480,13 +480,13 @@ const nav=document.getElementById('nav');
       window.setTimeout(()=>{
         siteLoader?.classList.add('is-hidden');
         document.body.classList.remove('is-loading');
-      },1150);
+      },400);
     });
 
     window.setTimeout(()=>{
       siteLoader?.classList.add('is-hidden');
       document.body.classList.remove('is-loading');
-    },2400);
+    },1200);
 
 
     /* V31 draggable return-home button */
